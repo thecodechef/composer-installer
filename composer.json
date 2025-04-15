@@ -6,7 +6,9 @@
         "livewire/volt": "^1.7",
         "calebporzio/sushi": "^2.5",
         "spatie/yaml-front-matter": "^2.1",
-        "league/commonmark": "^2.6"
+        "league/commonmark": "^2.6",
+        "laravel/tinker": "^2.10",
+        "graham-campbell/markdown": "^16.0"
     },
     "require-dev": {
         "laravel/pint": "^1.22",
