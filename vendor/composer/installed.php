@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd3dca12daef4b7c44bb2cb26dbcb68b3051f67a9',
+        'reference' => '671d3dcb825f015bfc799d2e3485fff5900b6173',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd3dca12daef4b7c44bb2cb26dbcb68b3051f67a9',
+            'reference' => '671d3dcb825f015bfc799d2e3485fff5900b6173',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -412,6 +412,15 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
+        'laminas/laminas-diactoros' => array(
+            'pretty_version' => '3.5.0',
+            'version' => '3.5.0.0',
+            'reference' => '143a16306602ce56b8b092a7914fef03c37f9ed2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-diactoros',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'laravel/folio' => array(
             'pretty_version' => 'v1.1.10',
             'version' => '1.1.10.0',
@@ -430,6 +439,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'laravel/octane' => array(
+            'pretty_version' => 'v2.9.1',
+            'version' => '2.9.1.0',
+            'reference' => '445002b2551c837d60cda4324259063c356dfb56',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/octane',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'laravel/pint' => array(
             'pretty_version' => 'v1.22.0',
             'version' => '1.22.0.0',
@@ -445,6 +463,15 @@
             'reference' => '57b8f7efe40333cdb925700891c7d7465325d3b1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/prompts',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laravel/scout' => array(
+            'pretty_version' => 'v10.14.1',
+            'version' => '10.14.1.0',
+            'reference' => '6ae3ec83ceacb554f395df9fe15318a14b79bb39',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/scout',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -851,6 +878,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
+                1 => '^1.0',
             ),
         ),
         'psr/http-message' => array(
@@ -866,6 +894,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
+                1 => '^1.1 || ^2.0',
             ),
         ),
         'psr/log' => array(
@@ -940,6 +969,15 @@
             'replaced' => array(
                 0 => '4.7.6',
             ),
+        ),
+        'ryangjchandler/blade-capture-directive' => array(
+            'pretty_version' => 'v1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => 'bbb1513dfd89eaec87a47fe0c449a7e3d4a1976d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ryangjchandler/blade-capture-directive',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'sebastian/cli-parser' => array(
             'pretty_version' => '3.0.2',
@@ -1075,6 +1113,15 @@
             'install_path' => __DIR__ . '/../sebastian/version',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'spatie/laravel-package-tools' => array(
+            'pretty_version' => '1.92.4',
+            'version' => '1.92.4.0',
+            'reference' => 'd20b1969f836d210459b78683d85c9cd5c5f508c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../spatie/laravel-package-tools',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'spatie/once' => array(
             'dev_requirement' => false,
@@ -1295,6 +1342,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'symfony/psr-http-message-bridge' => array(
+            'pretty_version' => 'v7.2.0',
+            'version' => '7.2.0.0',
+            'reference' => '03f2f72319e7acaf2a9f6fcbe30ef17eec51594f',
+            'type' => 'symfony-bridge',
+            'install_path' => __DIR__ . '/../symfony/psr-http-message-bridge',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'symfony/routing' => array(
             'pretty_version' => 'v7.2.3',
             'version' => '7.2.3.0',
@@ -1397,6 +1453,15 @@
             'reference' => '0d72ac1c00084279c1816675284073c5a337c20d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../tijsverkoyen/css-to-inline-styles',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'torchlight/torchlight-laravel' => array(
+            'pretty_version' => 'v0.6.1',
+            'version' => '0.6.1.0',
+            'reference' => '5670af34e9637761c89687848b8bd71e043d6819',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../torchlight/torchlight-laravel',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

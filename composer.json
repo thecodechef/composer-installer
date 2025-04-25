@@ -9,7 +9,11 @@
         "league/commonmark": "^2.6",
         "laravel/tinker": "^2.10",
         "graham-campbell/markdown": "^16.0",
-        "php": "*"
+        "php": "*",
+        "torchlight/torchlight-laravel": "^0.6.1",
+        "laravel/scout": "^10.14",
+        "laravel/octane": "^2.9",
+        "ryangjchandler/blade-capture-directive": "^1.1"
     },
     "require-dev": {
         "laravel/pint": "^1.22",
